@@ -1,0 +1,51 @@
+# Node dependencies
+node_modules/
+
+# Lock files
+# Keep package-lock.json committed for reproducible installs
+yarn.lock
+pnpm-lock.yaml
+
+# Build and output directories
+dist/
+build/
+out/
+
+# Environment variables (Crucial for hiding Firebase API keys!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScript and Vite temporary files
+.tmp/
+*.tsbuildinfo
+vite.config.ts.timestamp-*
+
+# Repomix outputs
+repomix-output.xml
+repomix-output.txt
+repomix-output.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS and Editor files/main
+.DS_Store
+Thumbs.db
+*.dmg
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
